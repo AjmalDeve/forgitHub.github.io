@@ -1,0 +1,425 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:century gothic ;
+  outline: none;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  overflow-x:hidden ;
+  position: relative;
+  
+}
+.nav_bar{
+  z-index: 999;
+  font-size: 1.7rem;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 10vh;
+  background-color: whitesmoke ;
+}
+.nav_links{
+  font-family:century gothic ;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around ;
+}
+.nav_links li{
+  list-style: none;
+  color: black;
+}
+.nav_links li .nav{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  display: flex;
+  border: none;
+  transition: .4s ease;
+}
+.nav_links li  span{
+  display: block;
+  background-color: blueviolet;
+  height: .2rem;
+  width: .5rem;
+  transition: .4s ease;
+}
+
+.nav_links li .nav:hover{
+  color: blueviolet;
+
+}
+.nav_links li:hover span{
+  width: 100%;
+
+}
+
+.nav_links li .nav:active{
+  color: black;
+}
+.logo{
+  font-weight: 800 ;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   */
+}
+.logo span{
+  color: blueviolet;
+}
+
+/* ********         footer code             **************                      ************ */
+
+.footer{
+  font-size: 1.3rem;
+  background-color: blueviolet;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 40vh;
+  color: whitesmoke;
+}
+.up{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 70%;
+  color: whitesmoke;
+}
+.up .box{
+  /* display: flex;
+  align-items: center;
+  justify-content:center ;
+  flex-direction: column; */
+  padding-left: .5rem;
+  width: 20% ;
+  height: 50%;
+}
+.line{
+  background-color: aliceblue;
+  width: 100% ;
+  height: .2rem;
+}
+.dwon{
+  width: 100vw;
+  height: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.boxTow{
+  padding-top:1rem ;
+  width: 45%;
+  height: 90%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.icons{
+  width: 40%;
+  height: 40%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.icon1{
+  font-weight: 500;
+  width: 25%;
+}
+.icon2{
+  font-size: 3rem;
+  transition:all .4s ease;
+  cursor: pointer;
+}
+.icon2:hover{
+  transform: scale(1.1);
+}
+.up .box p{
+  width: 80%;
+  height: 62%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.up .box .subs{
+  width: 90%;
+  text-transform: capitalize;
+}
+.up .box .sub{
+  width: 63%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.up .box .sub .btn{
+  width: 100%; 
+  background-color: blueviolet;
+}
+/* ********       About page code            ***************** */
+.contanierOfAbout{
+   width: 100vw;
+   height: 120vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.contanierOfAbout .left{
+ width: 75%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+}
+.contanierOfAbout .left .mai{
+  margin-top: -10.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+}
+.in{
+  cursor: pointer;
+  font-size: 1rem;
+  width: 50%;
+  height: 7%;
+}
+.info_name{
+  cursor: pointer;
+  height: 13%;
+  width: 50%;
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+.info_para{
+  cursor: pointer;
+  height: 15%;
+  font-size: 1.5rem;
+  padding: .5rem;
+  width: 50%;
+}
+.info_btn{
+  width: 50%;
+  
+}
+.contanierOfAbout .right{
+
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  width: 50%;
+  height: 100%;
+}
+.css-e53awj-MuiStack-root {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 12%;
+}
+.css-xn6ruc>:not(style) {
+  margin: .8rem;
+  margin-left: 2rem;
+  width: 21ch;
+}
+.pro_logo{
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  width: 50%;
+  height: 50%;
+  box-shadow: 1rem 1rem 5rem 1rem rgba(137, 43, 226, 0.705);
+  transition: all .6s ease;
+}
+.pro_logo:hover{
+  transform: scale(1.1);
+  box-shadow: 1rem 3rem 8rem 0px rgba(137, 43, 226, 0.5);
+}
+.extra{
+  width: 100vw;
+  height: 20vh;
+}
+.css-e53awj-MuiStack-root {
+  width: 50%;
+} 
+.service_content{
+  width: 100vw;
+  height: 120vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+.wrapp {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.service_heading{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+}
+.boxs{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.box{
+  margin: .3rem;
+}
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.87);
+  -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+  overflow: hidden;
+  max-width: 345px;
+  /* margin: 1.5rem; */
+}
+.forrrm{
+  width: 100vw;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: whitesmoke; */
+
+}
+.forrrm .forrm{
+  width: 80%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+@media (max-width:1047px) {
+  
+.info_name {
+  /* cursor: pointer; */
+  height: 25%;
+}
+}
+@media (max-width:945px) {
+  
+  .up .box {
+    padding-left: .5rem;
+    width: 27%;
+    height: 50%;
+}
+.up .box p {
+  width: 80%;
+  height: 88%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  width: 53%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info_name {
+  /* cursor: pointer; */
+  height: 25%;
+}
+.css-e53awj-MuiStack-root {
+  width: 50%;
+}
+.info_para {
+  /* cursor: pointer; */
+  height: 24%;
+}
+}
+@media (max-width :598px) {
+  .nav_links{
+    display: none;
+  }
+}
+@media (max-width:611px) {
+  .pro_logo {
+    margin-bottom: 7rem;
+  }
+  .contanierOfAbout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
+}
+  .service_content {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: auto;
+} 
+  .contanierOfAbout {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contanierOfAbout .left .mai {
+    height: 91%;
+    margin-top: 10rem;
+}
+.contanierOfAbout .left .mai{
+ 
+  height:100% ;
+}
+.contanierOfAbout .right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 100%;
+}
+
+.up .box {
+  padding-left: .5rem;
+  width: 80%;
+  height: 33%;
+}
+
+}
+@media (max-width:449px) {
+  html{
+    font-size:45%;
+  }
+}
+.css-1xez8po-MuiPaper-root-MuiCard-root {
+  margin: 1rem;
+}
